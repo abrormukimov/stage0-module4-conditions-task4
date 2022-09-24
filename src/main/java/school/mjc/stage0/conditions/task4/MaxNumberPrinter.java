@@ -2,5 +2,8 @@ package school.mjc.stage0.conditions.task4;
 
 public class MaxNumberPrinter {
     public void printGreatest(int first, int second, int third) {
+        System.out.println(first >= second && first >= third ? first : null);
+        System.out.println(second >= first && second >= third ? second : null);
+        System.out.println(third >= first && third >= second ? third : null);
     }
 }
